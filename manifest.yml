@@ -5,5 +5,5 @@ applications:
     routes:
       - route: pal-tracker-pietro-sampsonite.apps.chicken.pal.pivotal.io
     env:
-      THE_MSG: Hello from Cloud Foundry
+      THE_MSG: Hello from Cloud Foundry PipeLine!!!
       JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'

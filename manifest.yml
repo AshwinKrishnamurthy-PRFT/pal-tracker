@@ -2,8 +2,7 @@
 applications:
 - name: FIRSTBOOT
   path: build/libs/pal-tracker.jar
-  routes:
-    - route: FIRSTBOOT-pietro-sampsonite.apps.chicken.pal.pivotal.io
+  random-route: true
   env:
     WELCOME_MESSAGE: Hello from Cloud Foundry pipeline
     JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
